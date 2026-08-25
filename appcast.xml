@@ -3,6 +3,19 @@
     <channel>
         <title>AgentsEye</title>
         <item>
+            <title>0.17.7</title>
+            <pubDate>Tue, 25 Aug 2026 13:36:16 -0600</pubDate>
+            <link>https://agentseye.app/</link>
+            <sparkle:version>55</sparkle:version>
+            <sparkle:shortVersionString>0.17.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[AgentsEye 0.17.7 puts About AgentsEye within easy reach. Open it directly from
+the menu-bar window or the main app toolbar to see the app version and creator
+information.
+]]></description>
+            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.7/AgentsEye.dmg" length="9295278" type="application/octet-stream" sparkle:edSignature="uYByG3WCDHDb6I62GNRXl3fU1qn/rXd65veZtKL6qWvK0JkQhmJdLb/943D/n4yQdKPnPmtmNC1tC7NWUS9IBg=="/>
+        </item>
+        <item>
             <title>0.17.6</title>
             <pubDate>Tue, 25 Aug 2026 13:21:44 -0600</pubDate>
             <link>https://agentseye.app/</link>
@@ -32,22 +45,6 @@ ports. No prompts, responses, credentials, or webhook URLs are added to app
 telemetry or diagnostics.
 ]]></description>
             <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.5/AgentsEye.dmg" length="9276711" type="application/octet-stream" sparkle:edSignature="M2NgPX8B4bAzViuPY+Rl/vdaGL3d+ZdVZUZmUjdltEArUxpDiigTqO64fOyQEWsrGtismwtRQPqHQqZE46U/Cg=="/>
-        </item>
-        <item>
-            <title>0.17.4</title>
-            <pubDate>Tue, 25 Aug 2026 10:14:07 -0600</pubDate>
-            <link>https://agentseye.app/</link>
-            <sparkle:version>52</sparkle:version>
-            <sparkle:shortVersionString>0.17.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[AgentsEye 0.17.4 moves automatic updates to the public AgentsEye GitHub release
-feed. The application source remains private; only signed, notarized downloads
-and release metadata are published.
-
-This build also includes the immediate, animation-free menu-bar panel introduced
-in 0.17.3.
-]]></description>
-            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.4/AgentsEye.dmg" length="9209719" type="application/octet-stream" sparkle:edSignature="soPUnoTXfQfbkDueS+I+q7uJIuwows4anM1vRFVG0CFrBXB6PyBn0r9mpCWziMdJ3eGiSz9iqaChiHBqx5K4CA=="/>
         </item>
     </channel>
 </rss>
