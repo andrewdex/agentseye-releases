@@ -3,6 +3,20 @@
     <channel>
         <title>AgentsEye</title>
         <item>
+            <title>0.17.6</title>
+            <pubDate>Tue, 25 Aug 2026 13:21:44 -0600</pubDate>
+            <link>https://agentseye.app/</link>
+            <sparkle:version>54</sparkle:version>
+            <sparkle:shortVersionString>0.17.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[AgentsEye 0.17.6 makes daily pacing guidance clearer. The compact menu no
+longer shows “On track” beside the contradictory “Hold today” message. When a
+plan is on pace and today's allowance has already been used, the menu now keeps
+the single on-track verdict. Detailed views use “Daily target met.”
+]]></description>
+            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.6/AgentsEye.dmg" length="9277509" type="application/octet-stream" sparkle:edSignature="/sxHJxvf/nPsJm/G0nPj60iSnC0mm5k84Xt2KqpFX38iBJeRwEVJCOOO9WuM+CqMHJYLF6NqYYkZfMFeoK+4Cw=="/>
+        </item>
+        <item>
             <title>0.17.5</title>
             <pubDate>Tue, 25 Aug 2026 12:49:46 -0600</pubDate>
             <link>https://agentseye.app/</link>
@@ -34,21 +48,6 @@ This build also includes the immediate, animation-free menu-bar panel introduced
 in 0.17.3.
 ]]></description>
             <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.4/AgentsEye.dmg" length="9209719" type="application/octet-stream" sparkle:edSignature="soPUnoTXfQfbkDueS+I+q7uJIuwows4anM1vRFVG0CFrBXB6PyBn0r9mpCWziMdJ3eGiSz9iqaChiHBqx5K4CA=="/>
-        </item>
-        <item>
-            <title>0.17.3</title>
-            <pubDate>Tue, 25 Aug 2026 09:55:48 -0600</pubDate>
-            <link>https://agentseye.app/</link>
-            <sparkle:version>51</sparkle:version>
-            <sparkle:shortVersionString>0.17.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[AgentsEye 0.17.3 makes the menu-bar panel appear immediately with no opening
-animation. The panel no longer sweeps, pulses, breathes, or glows when opened.
-
-This build is signed with Developer ID, notarized by Apple, stapled, and
-accepted by Gatekeeper.
-]]></description>
-            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.3/AgentsEye.dmg" length="9209703" type="application/octet-stream" sparkle:edSignature="q9p2WDwuW93u5z3a1l2qXphdRYlapbPWx7rVCu2bIpQ90bo5QauuJE8XsB+UyAgp51TPBkCZCQTIIR52IkFYAw=="/>
         </item>
     </channel>
 </rss>
