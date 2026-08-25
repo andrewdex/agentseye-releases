@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>AgentsEye</title>
+        <item>
+            <title>0.17.3</title>
+            <pubDate>Tue, 25 Aug 2026 09:55:48 -0600</pubDate>
+            <link>https://agentseye.app/</link>
+            <sparkle:version>51</sparkle:version>
+            <sparkle:shortVersionString>0.17.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[AgentsEye 0.17.3 makes the menu-bar panel appear immediately with no opening
+animation. The panel no longer sweeps, pulses, breathes, or glows when opened.
+
+This build is signed with Developer ID, notarized by Apple, stapled, and
+accepted by Gatekeeper.
+]]></description>
+            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.3/AgentsEye.dmg" length="9209703" type="application/octet-stream" sparkle:edSignature="q9p2WDwuW93u5z3a1l2qXphdRYlapbPWx7rVCu2bIpQ90bo5QauuJE8XsB+UyAgp51TPBkCZCQTIIR52IkFYAw=="/>
+        </item>
+    </channel>
+</rss>
