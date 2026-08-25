@@ -3,6 +3,22 @@
     <channel>
         <title>AgentsEye</title>
         <item>
+            <title>0.17.4</title>
+            <pubDate>Tue, 25 Aug 2026 10:14:07 -0600</pubDate>
+            <link>https://agentseye.app/</link>
+            <sparkle:version>52</sparkle:version>
+            <sparkle:shortVersionString>0.17.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[AgentsEye 0.17.4 moves automatic updates to the public AgentsEye GitHub release
+feed. The application source remains private; only signed, notarized downloads
+and release metadata are published.
+
+This build also includes the immediate, animation-free menu-bar panel introduced
+in 0.17.3.
+]]></description>
+            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.4/AgentsEye.dmg" length="9209719" type="application/octet-stream" sparkle:edSignature="soPUnoTXfQfbkDueS+I+q7uJIuwows4anM1vRFVG0CFrBXB6PyBn0r9mpCWziMdJ3eGiSz9iqaChiHBqx5K4CA=="/>
+        </item>
+        <item>
             <title>0.17.3</title>
             <pubDate>Tue, 25 Aug 2026 09:55:48 -0600</pubDate>
             <link>https://agentseye.app/</link>
