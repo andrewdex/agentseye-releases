@@ -3,6 +3,23 @@
     <channel>
         <title>AgentsEye</title>
         <item>
+            <title>0.17.5</title>
+            <pubDate>Tue, 25 Aug 2026 12:49:46 -0600</pubDate>
+            <link>https://agentseye.app/</link>
+            <sparkle:version>53</sparkle:version>
+            <sparkle:shortVersionString>0.17.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[AgentsEye 0.17.5 tightens local data protection. The analytics database,
+write-ahead log, and shared-memory files now use owner-only permissions, and
+the app repairs permissions on existing local data when it opens the database.
+
+Discord webhook validation now rejects embedded credentials and nonstandard
+ports. No prompts, responses, credentials, or webhook URLs are added to app
+telemetry or diagnostics.
+]]></description>
+            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.5/AgentsEye.dmg" length="9276711" type="application/octet-stream" sparkle:edSignature="M2NgPX8B4bAzViuPY+Rl/vdaGL3d+ZdVZUZmUjdltEArUxpDiigTqO64fOyQEWsrGtismwtRQPqHQqZE46U/Cg=="/>
+        </item>
+        <item>
             <title>0.17.4</title>
             <pubDate>Tue, 25 Aug 2026 10:14:07 -0600</pubDate>
             <link>https://agentseye.app/</link>
