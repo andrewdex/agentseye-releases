@@ -3,6 +3,23 @@
     <channel>
         <title>AgentsEye</title>
         <item>
+            <title>0.17.9</title>
+            <pubDate>Thu, 27 Aug 2026 13:29:34 -0600</pubDate>
+            <link>https://agentseye.app/</link>
+            <sparkle:version>57</sparkle:version>
+            <sparkle:shortVersionString>0.17.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[AgentsEye 0.17.9 makes Codex quota readings more reliable and brings updates into the app.
+
+- Codex now reads the current account quota directly instead of presenting an old session-history value as live usage.
+- Pro Lite accounts can see the general weekly limit alongside independent Spark five-hour and weekly windows.
+- The collector now finds local Codex installations reliably when AgentsEye is launched from Finder or the menu bar.
+- Settings includes a dedicated Updates pane with current status, automatic checks, and restart-to-install guidance.
+- The standard macOS “Check for Updates…” command is configured and available in local and release builds.
+]]></description>
+            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.9/AgentsEye.dmg" length="8719816" type="application/octet-stream" sparkle:edSignature="K7HgRBVyG6a+qwFX+p4Y4vARuWI1tnXcvjvMYpix6aJ3oglLncgUgIf9qhQHNXA/ERc8A+G0wwTMwTqBOQzpBw=="/>
+        </item>
+        <item>
             <title>0.17.7</title>
             <pubDate>Tue, 25 Aug 2026 13:36:16 -0600</pubDate>
             <link>https://agentseye.app/</link>
@@ -28,23 +45,6 @@ plan is on pace and today's allowance has already been used, the menu now keeps
 the single on-track verdict. Detailed views use “Daily target met.”
 ]]></description>
             <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.6/AgentsEye.dmg" length="9277509" type="application/octet-stream" sparkle:edSignature="/sxHJxvf/nPsJm/G0nPj60iSnC0mm5k84Xt2KqpFX38iBJeRwEVJCOOO9WuM+CqMHJYLF6NqYYkZfMFeoK+4Cw=="/>
-        </item>
-        <item>
-            <title>0.17.5</title>
-            <pubDate>Tue, 25 Aug 2026 12:49:46 -0600</pubDate>
-            <link>https://agentseye.app/</link>
-            <sparkle:version>53</sparkle:version>
-            <sparkle:shortVersionString>0.17.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[AgentsEye 0.17.5 tightens local data protection. The analytics database,
-write-ahead log, and shared-memory files now use owner-only permissions, and
-the app repairs permissions on existing local data when it opens the database.
-
-Discord webhook validation now rejects embedded credentials and nonstandard
-ports. No prompts, responses, credentials, or webhook URLs are added to app
-telemetry or diagnostics.
-]]></description>
-            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.5/AgentsEye.dmg" length="9276711" type="application/octet-stream" sparkle:edSignature="M2NgPX8B4bAzViuPY+Rl/vdaGL3d+ZdVZUZmUjdltEArUxpDiigTqO64fOyQEWsrGtismwtRQPqHQqZE46U/Cg=="/>
         </item>
     </channel>
 </rss>
