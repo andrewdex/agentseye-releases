@@ -3,6 +3,22 @@
     <channel>
         <title>AgentsEye</title>
         <item>
+            <title>0.17.18</title>
+            <pubDate>Tue, 01 Sep 2026 16:32:03 -0600</pubDate>
+            <link>https://agentseye.app/</link>
+            <sparkle:version>66</sparkle:version>
+            <sparkle:shortVersionString>0.17.18</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[AgentsEye 0.17.18 adds automatic recovery for Prompt Intelligence refresh failures.
+
+- If a prompt refresh is interrupted by a crash, the next launch automatically turns prompt capture off instead of repeating the crash loop.
+- When prompt capture is off, AgentsEye no longer opens the encrypted prompt vault or requests Keychain access.
+- Prompt capture can be enabled again from the Prompts page after the app recovers.
+- The support page now includes recovery instructions for users trapped on 0.17.15.
+]]></description>
+            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.18/AgentsEye.dmg" length="9952186" type="application/octet-stream" sparkle:edSignature="ot17e97lerGM/GqWPXofzUpbMN/2Z2ISSnaSNCbJB/tvMSMIlavXlADDniKmZfxrAH5cy1vX2xAmAMH0EI1fDg=="/>
+        </item>
+        <item>
             <title>0.17.17</title>
             <pubDate>Tue, 01 Sep 2026 15:26:04 -0600</pubDate>
             <link>https://agentseye.app/</link>
@@ -32,27 +48,6 @@
 - Prompt capture remains opt-in, encrypted locally, and independent of Claude or browser credential access.
 ]]></description>
             <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.16/AgentsEye.dmg" length="9916978" type="application/octet-stream" sparkle:edSignature="7ebGf30vP9M/Zuyaq6zO7zW4/1pagQqsMlZ5xqi2igfIEekZ7wJNqzpwJjl9/m79ZysuckVNzqrEs/IcmDWhAQ=="/>
-        </item>
-        <item>
-            <title>0.17.15</title>
-            <pubDate>Tue, 01 Sep 2026 14:05:19 -0600</pubDate>
-            <link>https://agentseye.app/</link>
-            <sparkle:version>63</sparkle:version>
-            <sparkle:shortVersionString>0.17.15</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[AgentsEye 0.17.15 introduces private, local Prompt Intelligence.
-
-- Prompt capture is off by default and requires explicit opt-in.
-- Supported user-authored prompts are redacted for common secrets, encrypted on this Mac, and never sent to AgentsEye.
-- Search prompt text, projects, models, and providers, then open a complete prompt chain for a session.
-- Connect each prompt to its observed model, effort, token usage, API-equivalent value, and usage session.
-- Find related wording across sessions with deterministic on-device similarity. No AI provider or quota is used.
-- Choose 7, 30, or 90-day retention, disable individual providers, or delete the local prompt index at any time.
-- Provider responses, diagnostics, reports, alerts, Discord messages, and telemetry never include prompt text.
-- Recent transcript indexing is bounded and incremental-friendly; a fixed OpenCode pipe deadlock no longer leaves AgentsEye reading forever.
-- Background provider refresh remains non-interactive. Declining Keychain access does not block the app or require repeated password dialogs.
-]]></description>
-            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.15/AgentsEye.dmg" length="9907979" type="application/octet-stream" sparkle:edSignature="TfXLdy99kqH3TT0uddJTeB6wl9G4ttO7PkfCwmRH/LTH921zYhCn31uMg7MSk/n886lkw5M34pEH+pd0wasHCQ=="/>
         </item>
     </channel>
 </rss>
