@@ -3,6 +3,23 @@
     <channel>
         <title>AgentsEye</title>
         <item>
+            <title>0.17.14</title>
+            <pubDate>Tue, 01 Sep 2026 12:33:06 -0600</pubDate>
+            <link>https://agentseye.app/</link>
+            <sparkle:version>62</sparkle:version>
+            <sparkle:shortVersionString>0.17.14</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[AgentsEye 0.17.14 fixes dashboard window duplication and improves Claude recovery safety.
+
+- Repeatedly choosing Open Dashboard now focuses one dashboard instead of creating new windows.
+- Claude recovery never scans Chromium Safe Storage entries in the background.
+- Existing Firefox-family session fallback remains available without broad browser probing.
+- Claude Code OAuth remains the preferred usage source when available.
+- A valid Claude Code CLI sign-in is now recognized even when Anthropic does not expose live quota to AgentsEye.
+]]></description>
+            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.14/AgentsEye.dmg" length="8756904" type="application/octet-stream" sparkle:edSignature="ZyvHSWA4NH3+FvH7Yyf2+IeSE9sgWNl20M+DIi/0t7VgL6VjgsG06Bz8Ud3+devgyvcD2ma/UiZ/F0RTpUyjCQ=="/>
+        </item>
+        <item>
             <title>0.17.13</title>
             <pubDate>Tue, 01 Sep 2026 11:45:57 -0600</pubDate>
             <link>https://agentseye.app/</link>
@@ -34,22 +51,6 @@
 - Keeps local Claude token and session history available when no live subscription quota exists.
 ]]></description>
             <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.12/AgentsEye.dmg" length="8755316" type="application/octet-stream" sparkle:edSignature="lmjrEANUdgpDvXmuCGhFi2Jf8wuUHgsFdR0K8FceYJ7G91/zymupCxJn02AluvpdlE1wBUA2W8LpWsShhLnIDg=="/>
-        </item>
-        <item>
-            <title>0.17.11</title>
-            <pubDate>Tue, 01 Sep 2026 07:15:52 -0600</pubDate>
-            <link>https://agentseye.app/</link>
-            <sparkle:version>59</sparkle:version>
-            <sparkle:shortVersionString>0.17.11</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[AgentsEye 0.17.11 keeps the selected provider visible when following active usage.
-
-- The menu bar now retains the last confirmed provider while you are idle instead of reverting to a generic bars icon and dash.
-- New activity still switches the menu bar automatically to the provider you are using.
-- Before the first activity signal, AgentsEye shows a real available quota rather than an empty placeholder.
-- The menu and settings describe idle state honestly as the last used provider while waiting for new activity.
-]]></description>
-            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.11/AgentsEye.dmg" length="8724207" type="application/octet-stream" sparkle:edSignature="xO7mbi5yKlMvF7Fbn00leULSZa5Pg03tEZO8M6FuscQ38jgbwsTGzsxvVI8JooMuGNbVkbBnqIhaQsEAqgqcAg=="/>
         </item>
     </channel>
 </rss>
