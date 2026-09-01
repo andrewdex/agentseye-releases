@@ -3,6 +3,27 @@
     <channel>
         <title>AgentsEye</title>
         <item>
+            <title>0.17.15</title>
+            <pubDate>Tue, 01 Sep 2026 14:05:19 -0600</pubDate>
+            <link>https://agentseye.app/</link>
+            <sparkle:version>63</sparkle:version>
+            <sparkle:shortVersionString>0.17.15</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[AgentsEye 0.17.15 introduces private, local Prompt Intelligence.
+
+- Prompt capture is off by default and requires explicit opt-in.
+- Supported user-authored prompts are redacted for common secrets, encrypted on this Mac, and never sent to AgentsEye.
+- Search prompt text, projects, models, and providers, then open a complete prompt chain for a session.
+- Connect each prompt to its observed model, effort, token usage, API-equivalent value, and usage session.
+- Find related wording across sessions with deterministic on-device similarity. No AI provider or quota is used.
+- Choose 7, 30, or 90-day retention, disable individual providers, or delete the local prompt index at any time.
+- Provider responses, diagnostics, reports, alerts, Discord messages, and telemetry never include prompt text.
+- Recent transcript indexing is bounded and incremental-friendly; a fixed OpenCode pipe deadlock no longer leaves AgentsEye reading forever.
+- Background provider refresh remains non-interactive. Declining Keychain access does not block the app or require repeated password dialogs.
+]]></description>
+            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.15/AgentsEye.dmg" length="9907979" type="application/octet-stream" sparkle:edSignature="TfXLdy99kqH3TT0uddJTeB6wl9G4ttO7PkfCwmRH/LTH921zYhCn31uMg7MSk/n886lkw5M34pEH+pd0wasHCQ=="/>
+        </item>
+        <item>
             <title>0.17.14</title>
             <pubDate>Tue, 01 Sep 2026 12:33:06 -0600</pubDate>
             <link>https://agentseye.app/</link>
@@ -34,23 +55,6 @@
 - Keeps the local browser-session fallback and privacy protections introduced in 0.17.12.
 ]]></description>
             <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.13/AgentsEye.dmg" length="8755295" type="application/octet-stream" sparkle:edSignature="R0fufBqXlKnw/IXFvWvvsHEJPDLXCPi1m0QqsmU6HGKUW1K/OrAIJMdkLFVkzlyhho2ygfOYun0juu65mMTGDg=="/>
-        </item>
-        <item>
-            <title>0.17.12</title>
-            <pubDate>Tue, 01 Sep 2026 11:19:05 -0600</pubDate>
-            <link>https://agentseye.app/</link>
-            <sparkle:version>60</sparkle:version>
-            <sparkle:shortVersionString>0.17.12</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[AgentsEye 0.17.12 makes Claude subscription usage recoverable when Claude Code OAuth cannot provide quota.
-
-- Adds a local Zen and Firefox session fallback for Claude's 5-hour and weekly quota windows.
-- Keeps Claude credentials on the Mac and sends them only to Claude's own organization and usage endpoints.
-- Never stores or logs the imported browser session.
-- Adds a direct Open Claude usage recovery action when the browser session has expired.
-- Keeps local Claude token and session history available when no live subscription quota exists.
-]]></description>
-            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.12/AgentsEye.dmg" length="8755316" type="application/octet-stream" sparkle:edSignature="lmjrEANUdgpDvXmuCGhFi2Jf8wuUHgsFdR0K8FceYJ7G91/zymupCxJn02AluvpdlE1wBUA2W8LpWsShhLnIDg=="/>
         </item>
     </channel>
 </rss>
