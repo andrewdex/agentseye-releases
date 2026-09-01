@@ -3,6 +3,21 @@
     <channel>
         <title>AgentsEye</title>
         <item>
+            <title>0.17.17</title>
+            <pubDate>Tue, 01 Sep 2026 15:26:04 -0600</pubDate>
+            <link>https://agentseye.app/</link>
+            <sparkle:version>65</sparkle:version>
+            <sparkle:shortVersionString>0.17.17</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[AgentsEye 0.17.17 fixes Prompt Intelligence when the same local prompt appears more than once in provider history.
+
+- Deduplicates prompt records before building the encrypted local index.
+- Makes prompt-index writes resilient to repeated prompt identifiers.
+- Adds regression coverage for duplicate sessions and duplicate prompt rows.
+]]></description>
+            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.17/AgentsEye.dmg" length="9951653" type="application/octet-stream" sparkle:edSignature="s5c52UDa+NVdO6/tYrz1fZmpvs4yld9txBdwMvl3+8UjvxRdZwJfEJ1oHyosG6KAAvWbACzhdlXz+20Mk9XMBw=="/>
+        </item>
+        <item>
             <title>0.17.16</title>
             <pubDate>Tue, 01 Sep 2026 14:37:07 -0600</pubDate>
             <link>https://agentseye.app/</link>
@@ -38,23 +53,6 @@
 - Background provider refresh remains non-interactive. Declining Keychain access does not block the app or require repeated password dialogs.
 ]]></description>
             <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.15/AgentsEye.dmg" length="9907979" type="application/octet-stream" sparkle:edSignature="TfXLdy99kqH3TT0uddJTeB6wl9G4ttO7PkfCwmRH/LTH921zYhCn31uMg7MSk/n886lkw5M34pEH+pd0wasHCQ=="/>
-        </item>
-        <item>
-            <title>0.17.14</title>
-            <pubDate>Tue, 01 Sep 2026 12:33:06 -0600</pubDate>
-            <link>https://agentseye.app/</link>
-            <sparkle:version>62</sparkle:version>
-            <sparkle:shortVersionString>0.17.14</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[AgentsEye 0.17.14 fixes dashboard window duplication and improves Claude recovery safety.
-
-- Repeatedly choosing Open Dashboard now focuses one dashboard instead of creating new windows.
-- Claude recovery never scans Chromium Safe Storage entries in the background.
-- Existing Firefox-family session fallback remains available without broad browser probing.
-- Claude Code OAuth remains the preferred usage source when available.
-- A valid Claude Code CLI sign-in is now recognized even when Anthropic does not expose live quota to AgentsEye.
-]]></description>
-            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.14/AgentsEye.dmg" length="8756904" type="application/octet-stream" sparkle:edSignature="ZyvHSWA4NH3+FvH7Yyf2+IeSE9sgWNl20M+DIi/0t7VgL6VjgsG06Bz8Ud3+devgyvcD2ma/UiZ/F0RTpUyjCQ=="/>
         </item>
     </channel>
 </rss>
