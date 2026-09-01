@@ -3,6 +3,24 @@
     <channel>
         <title>AgentsEye</title>
         <item>
+            <title>0.17.19</title>
+            <pubDate>Tue, 01 Sep 2026 17:22:37 -0600</pubDate>
+            <link>https://agentseye.app/</link>
+            <sparkle:version>67</sparkle:version>
+            <sparkle:shortVersionString>0.17.19</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Prompt Intelligence you can trust
+
+- Excludes Codex-injected plugin, environment, permission, skill, app, AGENTS, interruption, and image context from user prompts.
+- Excludes OpenCode synthetic tool-call echoes from user prompts.
+- Links every prompt chain to its exact provider usage session, and every session back to its prompt chain.
+- Shows the calling harness or app, billing route, model, effort, tokens, and estimated API value alongside each prompt when available.
+- Corrects turn-level token attribution for prompt chains with more than one prompt.
+- Refreshes the AgentsEye website with Prompt Intelligence, harness attribution, session linking, current downloads, and corrected product copy.
+]]></description>
+            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.19/AgentsEye.dmg" length="10070093" type="application/octet-stream" sparkle:edSignature="m3bvlNoEvzU+13p/Y5vJ8AeJQ3/IlRzw4ebRgjdIayDQhVJ6W/zaXRZdxB0piGagIgI+ripyn9xObnqqwb1aCQ=="/>
+        </item>
+        <item>
             <title>0.17.18</title>
             <pubDate>Tue, 01 Sep 2026 16:32:03 -0600</pubDate>
             <link>https://agentseye.app/</link>
@@ -32,22 +50,6 @@
 - Adds regression coverage for duplicate sessions and duplicate prompt rows.
 ]]></description>
             <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.17/AgentsEye.dmg" length="9951653" type="application/octet-stream" sparkle:edSignature="s5c52UDa+NVdO6/tYrz1fZmpvs4yld9txBdwMvl3+8UjvxRdZwJfEJ1oHyosG6KAAvWbACzhdlXz+20Mk9XMBw=="/>
-        </item>
-        <item>
-            <title>0.17.16</title>
-            <pubDate>Tue, 01 Sep 2026 14:37:07 -0600</pubDate>
-            <link>https://agentseye.app/</link>
-            <sparkle:version>64</sparkle:version>
-            <sparkle:shortVersionString>0.17.16</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[AgentsEye 0.17.16 fixes a crash when enabling Prompt Intelligence.
-
-- Duplicate provider/session records are now reconciled deterministically instead of triggering a Swift runtime trap.
-- The richer duplicate is retained using turn count, token coverage, and recency.
-- A regression test now exercises the duplicate-history shape found in the macOS crash report.
-- Prompt capture remains opt-in, encrypted locally, and independent of Claude or browser credential access.
-]]></description>
-            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.16/AgentsEye.dmg" length="9916978" type="application/octet-stream" sparkle:edSignature="7ebGf30vP9M/Zuyaq6zO7zW4/1pagQqsMlZ5xqi2igfIEekZ7wJNqzpwJjl9/m79ZysuckVNzqrEs/IcmDWhAQ=="/>
         </item>
     </channel>
 </rss>
