@@ -3,6 +3,22 @@
     <channel>
         <title>AgentsEye</title>
         <item>
+            <title>0.17.13</title>
+            <pubDate>Tue, 01 Sep 2026 11:45:57 -0600</pubDate>
+            <link>https://agentseye.app/</link>
+            <sparkle:version>61</sparkle:version>
+            <sparkle:shortVersionString>0.17.13</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[AgentsEye 0.17.13 makes Claude reconnection clear and browser-neutral.
+
+- Removes browser-brand implementation details from the Claude reconnect flow.
+- Opens Claude's own usage page in the user's default browser.
+- Explains the connection in terms of Claude Code and claude.ai instead of a specific browser.
+- Keeps the local browser-session fallback and privacy protections introduced in 0.17.12.
+]]></description>
+            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.13/AgentsEye.dmg" length="8755295" type="application/octet-stream" sparkle:edSignature="R0fufBqXlKnw/IXFvWvvsHEJPDLXCPi1m0QqsmU6HGKUW1K/OrAIJMdkLFVkzlyhho2ygfOYun0juu65mMTGDg=="/>
+        </item>
+        <item>
             <title>0.17.12</title>
             <pubDate>Tue, 01 Sep 2026 11:19:05 -0600</pubDate>
             <link>https://agentseye.app/</link>
@@ -34,23 +50,6 @@
 - The menu and settings describe idle state honestly as the last used provider while waiting for new activity.
 ]]></description>
             <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.11/AgentsEye.dmg" length="8724207" type="application/octet-stream" sparkle:edSignature="xO7mbi5yKlMvF7Fbn00leULSZa5Pg03tEZO8M6FuscQ38jgbwsTGzsxvVI8JooMuGNbVkbBnqIhaQsEAqgqcAg=="/>
-        </item>
-        <item>
-            <title>0.17.10</title>
-            <pubDate>Fri, 28 Aug 2026 00:46:17 -0600</pubDate>
-            <link>https://agentseye.app/</link>
-            <sparkle:version>58</sparkle:version>
-            <sparkle:shortVersionString>0.17.10</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# AgentsEye 0.17.10
-
-AgentsEye now provides a direct route from its Support settings to practical help.
-
-- Open troubleshooting and contact instructions without searching for a destination.
-- See exactly what to include with a privacy-safe diagnostics export.
-- Review which private material should never be sent in a support message.
-]]></description>
-            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.10/AgentsEye.dmg" length="8720364" type="application/octet-stream" sparkle:edSignature="mq0ZM+ykxyXeWIhLOQ3axi4SdyyWHT7hlbYEJ3bOxhP6aFPGp4IkMBazkjhiOgFWjI8Z+5pSfzJ5nltxHaN2BQ=="/>
         </item>
     </channel>
 </rss>
