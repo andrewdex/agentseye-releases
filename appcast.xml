@@ -3,6 +3,23 @@
     <channel>
         <title>AgentsEye</title>
         <item>
+            <title>0.17.12</title>
+            <pubDate>Tue, 01 Sep 2026 11:19:05 -0600</pubDate>
+            <link>https://agentseye.app/</link>
+            <sparkle:version>60</sparkle:version>
+            <sparkle:shortVersionString>0.17.12</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[AgentsEye 0.17.12 makes Claude subscription usage recoverable when Claude Code OAuth cannot provide quota.
+
+- Adds a local Zen and Firefox session fallback for Claude's 5-hour and weekly quota windows.
+- Keeps Claude credentials on the Mac and sends them only to Claude's own organization and usage endpoints.
+- Never stores or logs the imported browser session.
+- Adds a direct Open Claude usage recovery action when the browser session has expired.
+- Keeps local Claude token and session history available when no live subscription quota exists.
+]]></description>
+            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.12/AgentsEye.dmg" length="8755316" type="application/octet-stream" sparkle:edSignature="lmjrEANUdgpDvXmuCGhFi2Jf8wuUHgsFdR0K8FceYJ7G91/zymupCxJn02AluvpdlE1wBUA2W8LpWsShhLnIDg=="/>
+        </item>
+        <item>
             <title>0.17.11</title>
             <pubDate>Tue, 01 Sep 2026 07:15:52 -0600</pubDate>
             <link>https://agentseye.app/</link>
@@ -34,23 +51,6 @@ AgentsEye now provides a direct route from its Support settings to practical hel
 - Review which private material should never be sent in a support message.
 ]]></description>
             <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.10/AgentsEye.dmg" length="8720364" type="application/octet-stream" sparkle:edSignature="mq0ZM+ykxyXeWIhLOQ3axi4SdyyWHT7hlbYEJ3bOxhP6aFPGp4IkMBazkjhiOgFWjI8Z+5pSfzJ5nltxHaN2BQ=="/>
-        </item>
-        <item>
-            <title>0.17.9</title>
-            <pubDate>Thu, 27 Aug 2026 13:29:34 -0600</pubDate>
-            <link>https://agentseye.app/</link>
-            <sparkle:version>57</sparkle:version>
-            <sparkle:shortVersionString>0.17.9</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[AgentsEye 0.17.9 makes Codex quota readings more reliable and brings updates into the app.
-
-- Codex now reads the current account quota directly instead of presenting an old session-history value as live usage.
-- Pro Lite accounts can see the general weekly limit alongside independent Spark five-hour and weekly windows.
-- The collector now finds local Codex installations reliably when AgentsEye is launched from Finder or the menu bar.
-- Settings includes a dedicated Updates pane with current status, automatic checks, and restart-to-install guidance.
-- The standard macOS “Check for Updates…” command is configured and available in local and release builds.
-]]></description>
-            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.9/AgentsEye.dmg" length="8719816" type="application/octet-stream" sparkle:edSignature="K7HgRBVyG6a+qwFX+p4Y4vARuWI1tnXcvjvMYpix6aJ3oglLncgUgIf9qhQHNXA/ERc8A+G0wwTMwTqBOQzpBw=="/>
         </item>
     </channel>
 </rss>
