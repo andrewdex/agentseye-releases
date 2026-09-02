@@ -3,6 +3,23 @@
     <channel>
         <title>AgentsEye</title>
         <item>
+            <title>0.17.21</title>
+            <pubDate>Wed, 02 Sep 2026 11:59:11 -0600</pubDate>
+            <link>https://agentseye.app/</link>
+            <sparkle:version>70</sparkle:version>
+            <sparkle:shortVersionString>0.17.21</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[AgentsEye 0.17.21 stops repeated Claude Code Keychain prompts.
+
+- Background refresh no longer reads Claude Code's Keychain item.
+- Background refresh no longer launches `claude auth status`, which could independently request Keychain access every five minutes.
+- Disconnecting Claude usage now prevents all Claude credential reads while keeping local Claude session history available.
+- Connected Claude usage can still use an existing on-device credentials file or a current claude.ai session in Zen or Firefox.
+- OpenCode Go continues to use the correct 5-hour, weekly, and monthly windows. Its API currently reports whole-number percentages, while the OpenCode dashboard may show decimals.
+]]></description>
+            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.21/AgentsEye.dmg" length="9266336" type="application/octet-stream" sparkle:edSignature="wof8RAFcsF/V/mjNscvC7nH8KEQ+kGoIevZeyO3EI8OTTNoVOlKa9DNFM2NEGZHPF9qsBNJo+17yuKanpTDjAw=="/>
+        </item>
+        <item>
             <title>0.17.20</title>
             <pubDate>Tue, 01 Sep 2026 18:52:50 -0600</pubDate>
             <link>https://agentseye.app/</link>
@@ -37,22 +54,6 @@
 - Refreshes the AgentsEye website with Prompt Intelligence, harness attribution, session linking, current downloads, and corrected product copy.
 ]]></description>
             <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.19/AgentsEye.dmg" length="10070093" type="application/octet-stream" sparkle:edSignature="m3bvlNoEvzU+13p/Y5vJ8AeJQ3/IlRzw4ebRgjdIayDQhVJ6W/zaXRZdxB0piGagIgI+ripyn9xObnqqwb1aCQ=="/>
-        </item>
-        <item>
-            <title>0.17.18</title>
-            <pubDate>Tue, 01 Sep 2026 16:32:03 -0600</pubDate>
-            <link>https://agentseye.app/</link>
-            <sparkle:version>66</sparkle:version>
-            <sparkle:shortVersionString>0.17.18</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[AgentsEye 0.17.18 adds automatic recovery for Prompt Intelligence refresh failures.
-
-- If a prompt refresh is interrupted by a crash, the next launch automatically turns prompt capture off instead of repeating the crash loop.
-- When prompt capture is off, AgentsEye no longer opens the encrypted prompt vault or requests Keychain access.
-- Prompt capture can be enabled again from the Prompts page after the app recovers.
-- The support page now includes recovery instructions for users trapped on 0.17.15.
-]]></description>
-            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.18/AgentsEye.dmg" length="9952186" type="application/octet-stream" sparkle:edSignature="ot17e97lerGM/GqWPXofzUpbMN/2Z2ISSnaSNCbJB/tvMSMIlavXlADDniKmZfxrAH5cy1vX2xAmAMH0EI1fDg=="/>
         </item>
     </channel>
 </rss>
