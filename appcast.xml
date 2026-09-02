@@ -3,6 +3,24 @@
     <channel>
         <title>AgentsEye</title>
         <item>
+            <title>0.17.20</title>
+            <pubDate>Tue, 01 Sep 2026 18:52:50 -0600</pubDate>
+            <link>https://agentseye.app/</link>
+            <sparkle:version>69</sparkle:version>
+            <sparkle:shortVersionString>0.17.20</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Cursor prompts are now visible
+
+- Reads user-authored prompts from Cursor's first-party local agent transcripts after Prompt Intelligence is enabled.
+- Links Cursor prompt chains to the exact local Cursor composer session.
+- Keeps transcript-only Cursor conversations navigable when Cursor omits their composer header.
+- Shows Cursor as the calling harness and preserves the local workspace label.
+- Excludes assistant messages, subagent transcripts, and browser data.
+- Keeps the same local redaction, encryption, retention, and deletion controls used by other supported prompt sources.
+]]></description>
+            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.20/AgentsEye.dmg" length="9257622" type="application/octet-stream" sparkle:edSignature="xUBK2zphHQUb1CGsAkxYMvKjVEHO1f+Y2A9/DIdD0jPVRGplGeVj93ZwoSIsez5LUkl9NU4HgwjPI0V4tD8sAg=="/>
+        </item>
+        <item>
             <title>0.17.19</title>
             <pubDate>Tue, 01 Sep 2026 17:22:37 -0600</pubDate>
             <link>https://agentseye.app/</link>
@@ -35,21 +53,6 @@
 - The support page now includes recovery instructions for users trapped on 0.17.15.
 ]]></description>
             <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.18/AgentsEye.dmg" length="9952186" type="application/octet-stream" sparkle:edSignature="ot17e97lerGM/GqWPXofzUpbMN/2Z2ISSnaSNCbJB/tvMSMIlavXlADDniKmZfxrAH5cy1vX2xAmAMH0EI1fDg=="/>
-        </item>
-        <item>
-            <title>0.17.17</title>
-            <pubDate>Tue, 01 Sep 2026 15:26:04 -0600</pubDate>
-            <link>https://agentseye.app/</link>
-            <sparkle:version>65</sparkle:version>
-            <sparkle:shortVersionString>0.17.17</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[AgentsEye 0.17.17 fixes Prompt Intelligence when the same local prompt appears more than once in provider history.
-
-- Deduplicates prompt records before building the encrypted local index.
-- Makes prompt-index writes resilient to repeated prompt identifiers.
-- Adds regression coverage for duplicate sessions and duplicate prompt rows.
-]]></description>
-            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.17/AgentsEye.dmg" length="9951653" type="application/octet-stream" sparkle:edSignature="s5c52UDa+NVdO6/tYrz1fZmpvs4yld9txBdwMvl3+8UjvxRdZwJfEJ1oHyosG6KAAvWbACzhdlXz+20Mk9XMBw=="/>
         </item>
     </channel>
 </rss>
