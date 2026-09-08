@@ -3,6 +3,23 @@
     <channel>
         <title>AgentsEye</title>
         <item>
+            <title>0.17.25</title>
+            <pubDate>Tue, 08 Sep 2026 15:23:24 -0600</pubDate>
+            <link>https://agentseye.app/</link>
+            <sparkle:version>75</sparkle:version>
+            <sparkle:shortVersionString>0.17.25</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[AgentsEye 0.17.25 makes usage and billing language clearer and fixes interrupted supporter checkout recovery.
+
+- Replace internal feature names with direct labels such as Usage history, Prompt history, Provider routes, and Outcome ratings.
+- Label token-based dollar amounts as estimated API cost, separate from subscription billing.
+- Explain supported provider limits and local pace estimates more precisely across the app and website.
+- Resume an interrupted Stripe checkout only when its monthly or annual plan matches the plan selected in AgentsEye. A mismatch now names the checkout already in progress and tells you how to resume it.
+- Keep checkout recovery idempotent so a retry cannot create a second payable session for the same attempt.
+]]></description>
+            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.25/AgentsEye.dmg" length="9566247" type="application/octet-stream" sparkle:edSignature="EYdrixL99j5nytrHi70kfu6/xYzZbwZsKSS/rexO2eZ0suqVD0i5a8XRLXkuVjigahz2iMPNeR7TV6WAI8c9Dg=="/>
+        </item>
+        <item>
             <title>0.17.24</title>
             <pubDate>Tue, 08 Sep 2026 13:21:51 -0600</pubDate>
             <link>https://agentseye.app/</link>
@@ -37,17 +54,6 @@
 - Replace in-place local installs with a staged, verified app replacement so removed widget or framework files cannot survive an update.
 ]]></description>
             <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.23/AgentsEye.dmg" length="9565921" type="application/octet-stream" sparkle:edSignature="WlTEha+b3Uin0soI32i54ALBesVJlwghE06KjTD6cKrm52Vesm7rQASEHutOTSoQ08+uzK1rIkgCKHjkGTOjAA=="/>
-        </item>
-        <item>
-            <title>0.17.22</title>
-            <pubDate>Tue, 08 Sep 2026 10:09:27 -0600</pubDate>
-            <link>https://agentseye.app/</link>
-            <sparkle:version>71</sparkle:version>
-            <sparkle:shortVersionString>0.17.22</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Fix rapid-usage alerts that missed gradual quota drain. AgentsEye now tracks cumulative usage across refreshes within the last hour, so a drop from 100% to 83% remaining triggers the enabled 10-point alert. Readings from earlier quota cycles and readings older than an hour are excluded.
-]]></description>
-            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.22/AgentsEye.dmg" length="10228557" type="application/octet-stream" sparkle:edSignature="8wRLydtLiyX1Y2rIf3kSfBmOoBzanSCh9MIuftvu6z/5WgovOgLGOPbhMPME22//2VBwc0ivKe2bxIhwH15sAQ=="/>
         </item>
     </channel>
 </rss>
