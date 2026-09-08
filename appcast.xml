@@ -3,6 +3,24 @@
     <channel>
         <title>AgentsEye</title>
         <item>
+            <title>0.17.23</title>
+            <pubDate>Tue, 08 Sep 2026 13:10:36 -0600</pubDate>
+            <link>https://agentseye.app/</link>
+            <sparkle:version>72</sparkle:version>
+            <sparkle:shortVersionString>0.17.23</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[AgentsEye 0.17.23 brings quotas to the macOS desktop and adds an optional way to support the app.
+
+- Add small and medium widgets for Codex or up to four enabled providers. They follow the dashboard's quota window, remaining/used mode, provider filter, sort order, and appearance.
+- Keep widget sharing local and minimal. The extension receives quota percentages, reset times, pace, and availability, without prompts, sessions, credentials, account IDs, or network access.
+- Add **Copy quota summary** for a private Markdown snapshot that is easy to paste into planning notes or a conversation.
+- Add an optional Founding Supporter subscription at USD 6/month or USD 48/year. Every beta feature remains free; Stripe handles payment details in the browser.
+- Make supporter checkout, restore, cancellation, refunds, disputes, retries, and duplicate webhooks fail safely without creating a second subscription or exposing Stripe customer data to the app.
+- Replace in-place local installs with a staged, verified app replacement so removed widget or framework files cannot survive an update.
+]]></description>
+            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.23/AgentsEye.dmg" length="9565921" type="application/octet-stream" sparkle:edSignature="WlTEha+b3Uin0soI32i54ALBesVJlwghE06KjTD6cKrm52Vesm7rQASEHutOTSoQ08+uzK1rIkgCKHjkGTOjAA=="/>
+        </item>
+        <item>
             <title>0.17.22</title>
             <pubDate>Tue, 08 Sep 2026 10:09:27 -0600</pubDate>
             <link>https://agentseye.app/</link>
@@ -29,24 +47,6 @@
 - OpenCode Go continues to use the correct 5-hour, weekly, and monthly windows. Its API currently reports whole-number percentages, while the OpenCode dashboard may show decimals.
 ]]></description>
             <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.21/AgentsEye.dmg" length="9266336" type="application/octet-stream" sparkle:edSignature="wof8RAFcsF/V/mjNscvC7nH8KEQ+kGoIevZeyO3EI8OTTNoVOlKa9DNFM2NEGZHPF9qsBNJo+17yuKanpTDjAw=="/>
-        </item>
-        <item>
-            <title>0.17.20</title>
-            <pubDate>Tue, 01 Sep 2026 18:52:50 -0600</pubDate>
-            <link>https://agentseye.app/</link>
-            <sparkle:version>69</sparkle:version>
-            <sparkle:shortVersionString>0.17.20</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Cursor prompts are now visible
-
-- Reads user-authored prompts from Cursor's first-party local agent transcripts after Prompt Intelligence is enabled.
-- Links Cursor prompt chains to the exact local Cursor composer session.
-- Keeps transcript-only Cursor conversations navigable when Cursor omits their composer header.
-- Shows Cursor as the calling harness and preserves the local workspace label.
-- Excludes assistant messages, subagent transcripts, and browser data.
-- Keeps the same local redaction, encryption, retention, and deletion controls used by other supported prompt sources.
-]]></description>
-            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.20/AgentsEye.dmg" length="9257622" type="application/octet-stream" sparkle:edSignature="xUBK2zphHQUb1CGsAkxYMvKjVEHO1f+Y2A9/DIdD0jPVRGplGeVj93ZwoSIsez5LUkl9NU4HgwjPI0V4tD8sAg=="/>
         </item>
     </channel>
 </rss>
