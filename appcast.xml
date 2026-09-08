@@ -3,6 +3,24 @@
     <channel>
         <title>AgentsEye</title>
         <item>
+            <title>0.17.24</title>
+            <pubDate>Tue, 08 Sep 2026 13:21:51 -0600</pubDate>
+            <link>https://agentseye.app/</link>
+            <sparkle:version>74</sparkle:version>
+            <sparkle:shortVersionString>0.17.24</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[AgentsEye 0.17.24 brings quotas to the macOS desktop and adds an optional way to support the app. This build also updates Macs that previously ran the signed widget preview.
+
+- Add small and medium widgets for Codex or up to four enabled providers. They follow the dashboard's quota window, remaining/used mode, provider filter, sort order, and appearance.
+- Keep widget sharing local and minimal. The extension receives quota percentages, reset times, pace, and availability, without prompts, sessions, credentials, account IDs, or network access.
+- Add **Copy quota summary** for a private Markdown snapshot that is easy to paste into planning notes or a conversation.
+- Add an optional Founding Supporter subscription at USD 6/month or USD 48/year. Every beta feature remains free; Stripe handles payment details in the browser.
+- Make supporter checkout, restore, cancellation, refunds, disputes, retries, and duplicate webhooks fail safely without creating a second subscription or exposing Stripe customer data to the app.
+- Replace in-place local installs with a staged, verified app replacement so removed widget or framework files cannot survive an update.
+]]></description>
+            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.24/AgentsEye.dmg" length="9565900" type="application/octet-stream" sparkle:edSignature="765rc2XC3zfazKHcLiyNN8y9J/QNh9zuMahOGQZrWKGvDY+5B0GnnH0xnmFs+Qn4qpDuxQbGf7w4AUr92Pe8DA=="/>
+        </item>
+        <item>
             <title>0.17.23</title>
             <pubDate>Tue, 08 Sep 2026 13:10:36 -0600</pubDate>
             <link>https://agentseye.app/</link>
@@ -30,23 +48,6 @@
             <description sparkle:format="markdown"><![CDATA[Fix rapid-usage alerts that missed gradual quota drain. AgentsEye now tracks cumulative usage across refreshes within the last hour, so a drop from 100% to 83% remaining triggers the enabled 10-point alert. Readings from earlier quota cycles and readings older than an hour are excluded.
 ]]></description>
             <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.22/AgentsEye.dmg" length="10228557" type="application/octet-stream" sparkle:edSignature="8wRLydtLiyX1Y2rIf3kSfBmOoBzanSCh9MIuftvu6z/5WgovOgLGOPbhMPME22//2VBwc0ivKe2bxIhwH15sAQ=="/>
-        </item>
-        <item>
-            <title>0.17.21</title>
-            <pubDate>Wed, 02 Sep 2026 11:59:11 -0600</pubDate>
-            <link>https://agentseye.app/</link>
-            <sparkle:version>70</sparkle:version>
-            <sparkle:shortVersionString>0.17.21</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[AgentsEye 0.17.21 stops repeated Claude Code Keychain prompts.
-
-- Background refresh no longer reads Claude Code's Keychain item.
-- Background refresh no longer launches `claude auth status`, which could independently request Keychain access every five minutes.
-- Disconnecting Claude usage now prevents all Claude credential reads while keeping local Claude session history available.
-- Connected Claude usage can still use an existing on-device credentials file or a current claude.ai session in Zen or Firefox.
-- OpenCode Go continues to use the correct 5-hour, weekly, and monthly windows. Its API currently reports whole-number percentages, while the OpenCode dashboard may show decimals.
-]]></description>
-            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.21/AgentsEye.dmg" length="9266336" type="application/octet-stream" sparkle:edSignature="wof8RAFcsF/V/mjNscvC7nH8KEQ+kGoIevZeyO3EI8OTTNoVOlKa9DNFM2NEGZHPF9qsBNJo+17yuKanpTDjAw=="/>
         </item>
     </channel>
 </rss>
