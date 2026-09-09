@@ -3,6 +3,15 @@
     <channel>
         <title>AgentsEye</title>
         <item>
+            <title>0.17.27</title>
+            <pubDate>Wed, 09 Sep 2026 09:18:38 -0600</pubDate>
+            <link>https://agentseye.app/</link>
+            <sparkle:version>77</sparkle:version>
+            <sparkle:shortVersionString>0.17.27</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.27/AgentsEye-0.17.27-77.dmg" length="10291040" type="application/octet-stream" sparkle:edSignature="IU0CesD7gkq2Uf/6ehd2bvK/gB8vmA8/aa4CdiVYNxlOaw0JQ79bPQEVHZ5pAnKgkHWGTpzbYybAt9jcZIt8Dg=="/>
+        </item>
+        <item>
             <title>0.17.26</title>
             <pubDate>Tue, 08 Sep 2026 18:39:31 -0600</pubDate>
             <link>https://agentseye.app/</link>
