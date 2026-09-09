@@ -11,7 +11,7 @@
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description sparkle:format="markdown"><![CDATA[AgentsEye 0.17.26 makes the optional Founding Supporter subscription easy to find from the dashboard and menu-bar panel. It also prevents production releases from shipping without the live billing endpoint.
 ]]></description>
-            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.26/AgentsEye.dmg" length="10005167" type="application/octet-stream" sparkle:edSignature="4dIwhQze17VHX8OXY5CVupe2HdL7OuPKu65O7dCO4y8hgDSHOTEzWxqA62rRfcr0mwol6kGkImJj6zYYKR2cDw=="/>
+            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.26/AgentsEye-0.17.26-76.dmg" length="10005167" type="application/octet-stream" sparkle:edSignature="4dIwhQze17VHX8OXY5CVupe2HdL7OuPKu65O7dCO4y8hgDSHOTEzWxqA62rRfcr0mwol6kGkImJj6zYYKR2cDw=="/>
         </item>
     </channel>
 </rss>
