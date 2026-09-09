@@ -3,57 +3,15 @@
     <channel>
         <title>AgentsEye</title>
         <item>
-            <title>0.17.25</title>
-            <pubDate>Tue, 08 Sep 2026 15:23:24 -0600</pubDate>
+            <title>0.17.26</title>
+            <pubDate>Tue, 08 Sep 2026 18:39:31 -0600</pubDate>
             <link>https://agentseye.app/</link>
-            <sparkle:version>75</sparkle:version>
-            <sparkle:shortVersionString>0.17.25</sparkle:shortVersionString>
+            <sparkle:version>76</sparkle:version>
+            <sparkle:shortVersionString>0.17.26</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[AgentsEye 0.17.25 makes usage and billing language clearer and fixes interrupted supporter checkout recovery.
-
-- Replace internal feature names with direct labels such as Usage history, Prompt history, Provider routes, and Outcome ratings.
-- Label token-based dollar amounts as estimated API cost, separate from subscription billing.
-- Explain supported provider limits and local pace estimates more precisely across the app and website.
-- Resume an interrupted Stripe checkout only when its monthly or annual plan matches the plan selected in AgentsEye. A mismatch now names the checkout already in progress and tells you how to resume it.
-- Keep checkout recovery idempotent so a retry cannot create a second payable session for the same attempt.
+            <description sparkle:format="markdown"><![CDATA[AgentsEye 0.17.26 makes the optional Founding Supporter subscription easy to find from the dashboard and menu-bar panel. It also prevents production releases from shipping without the live billing endpoint.
 ]]></description>
-            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.25/AgentsEye.dmg" length="9566247" type="application/octet-stream" sparkle:edSignature="EYdrixL99j5nytrHi70kfu6/xYzZbwZsKSS/rexO2eZ0suqVD0i5a8XRLXkuVjigahz2iMPNeR7TV6WAI8c9Dg=="/>
-        </item>
-        <item>
-            <title>0.17.24</title>
-            <pubDate>Tue, 08 Sep 2026 13:21:51 -0600</pubDate>
-            <link>https://agentseye.app/</link>
-            <sparkle:version>74</sparkle:version>
-            <sparkle:shortVersionString>0.17.24</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[AgentsEye 0.17.24 brings quotas to the macOS desktop and adds an optional way to support the app. This build also updates Macs that previously ran the signed widget preview.
-
-- Add small and medium widgets for Codex or up to four enabled providers. They follow the dashboard's quota window, remaining/used mode, provider filter, sort order, and appearance.
-- Keep widget sharing local and minimal. The extension receives quota percentages, reset times, pace, and availability, without prompts, sessions, credentials, account IDs, or network access.
-- Add **Copy quota summary** for a private Markdown snapshot that is easy to paste into planning notes or a conversation.
-- Add an optional Founding Supporter subscription at USD 6/month or USD 48/year. Every beta feature remains free; Stripe handles payment details in the browser.
-- Make supporter checkout, restore, cancellation, refunds, disputes, retries, and duplicate webhooks fail safely without creating a second subscription or exposing Stripe customer data to the app.
-- Replace in-place local installs with a staged, verified app replacement so removed widget or framework files cannot survive an update.
-]]></description>
-            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.24/AgentsEye.dmg" length="9565900" type="application/octet-stream" sparkle:edSignature="765rc2XC3zfazKHcLiyNN8y9J/QNh9zuMahOGQZrWKGvDY+5B0GnnH0xnmFs+Qn4qpDuxQbGf7w4AUr92Pe8DA=="/>
-        </item>
-        <item>
-            <title>0.17.23</title>
-            <pubDate>Tue, 08 Sep 2026 13:10:36 -0600</pubDate>
-            <link>https://agentseye.app/</link>
-            <sparkle:version>72</sparkle:version>
-            <sparkle:shortVersionString>0.17.23</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[AgentsEye 0.17.23 brings quotas to the macOS desktop and adds an optional way to support the app.
-
-- Add small and medium widgets for Codex or up to four enabled providers. They follow the dashboard's quota window, remaining/used mode, provider filter, sort order, and appearance.
-- Keep widget sharing local and minimal. The extension receives quota percentages, reset times, pace, and availability, without prompts, sessions, credentials, account IDs, or network access.
-- Add **Copy quota summary** for a private Markdown snapshot that is easy to paste into planning notes or a conversation.
-- Add an optional Founding Supporter subscription at USD 6/month or USD 48/year. Every beta feature remains free; Stripe handles payment details in the browser.
-- Make supporter checkout, restore, cancellation, refunds, disputes, retries, and duplicate webhooks fail safely without creating a second subscription or exposing Stripe customer data to the app.
-- Replace in-place local installs with a staged, verified app replacement so removed widget or framework files cannot survive an update.
-]]></description>
-            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.23/AgentsEye.dmg" length="9565921" type="application/octet-stream" sparkle:edSignature="WlTEha+b3Uin0soI32i54ALBesVJlwghE06KjTD6cKrm52Vesm7rQASEHutOTSoQ08+uzK1rIkgCKHjkGTOjAA=="/>
+            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.26/AgentsEye.dmg" length="10005167" type="application/octet-stream" sparkle:edSignature="4dIwhQze17VHX8OXY5CVupe2HdL7OuPKu65O7dCO4y8hgDSHOTEzWxqA62rRfcr0mwol6kGkImJj6zYYKR2cDw=="/>
         </item>
     </channel>
 </rss>
