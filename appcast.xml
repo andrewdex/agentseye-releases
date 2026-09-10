@@ -3,6 +3,15 @@
     <channel>
         <title>AgentsEye</title>
         <item>
+            <title>0.17.29</title>
+            <pubDate>Thu, 10 Sep 2026 09:17:57 -0600</pubDate>
+            <link>https://agentseye.app/</link>
+            <sparkle:version>79</sparkle:version>
+            <sparkle:shortVersionString>0.17.29</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.29/AgentsEye-0.17.29-79.dmg" length="9636939" type="application/octet-stream" sparkle:edSignature="8S9/DwpdTOLw5p1dpCHK8IO8cU7k8p/f7LFAA0xAEWWcFk8rbX69n6zKC+1mFCWHgO3JWFe825E5g1R6pHX1BQ=="/>
+        </item>
+        <item>
             <title>0.17.28</title>
             <pubDate>Wed, 09 Sep 2026 14:15:04 -0600</pubDate>
             <link>https://agentseye.app/</link>
@@ -19,17 +28,6 @@
             <sparkle:shortVersionString>0.17.27</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.27/AgentsEye-0.17.27-77.dmg" length="10291040" type="application/octet-stream" sparkle:edSignature="IU0CesD7gkq2Uf/6ehd2bvK/gB8vmA8/aa4CdiVYNxlOaw0JQ79bPQEVHZ5pAnKgkHWGTpzbYybAt9jcZIt8Dg=="/>
-        </item>
-        <item>
-            <title>0.17.26</title>
-            <pubDate>Tue, 08 Sep 2026 18:39:31 -0600</pubDate>
-            <link>https://agentseye.app/</link>
-            <sparkle:version>76</sparkle:version>
-            <sparkle:shortVersionString>0.17.26</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[AgentsEye 0.17.26 makes the optional Founding Supporter subscription easy to find from the dashboard and menu-bar panel. It also prevents production releases from shipping without the live billing endpoint.
-]]></description>
-            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.26/AgentsEye-0.17.26-76.dmg" length="10005167" type="application/octet-stream" sparkle:edSignature="4dIwhQze17VHX8OXY5CVupe2HdL7OuPKu65O7dCO4y8hgDSHOTEzWxqA62rRfcr0mwol6kGkImJj6zYYKR2cDw=="/>
         </item>
     </channel>
 </rss>
