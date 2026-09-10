@@ -3,6 +3,15 @@
     <channel>
         <title>AgentsEye</title>
         <item>
+            <title>0.18.0</title>
+            <pubDate>Thu, 10 Sep 2026 12:36:33 -0600</pubDate>
+            <link>https://agentseye.app/</link>
+            <sparkle:version>82</sparkle:version>
+            <sparkle:shortVersionString>0.18.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.18.0/AgentsEye-0.18.0-82.dmg" length="9760611" type="application/octet-stream" sparkle:edSignature="Aj59+ipWPSeKyAka7Ua923VB6YV8/rHsNQZQvFdp0hnGz8MmkWkMR1vUkLL1aAFu3L5YpSZ+qgrLpGMVksvZBg=="/>
+        </item>
+        <item>
             <title>0.17.31</title>
             <pubDate>Thu, 10 Sep 2026 09:44:57 -0600</pubDate>
             <link>https://agentseye.app/</link>
@@ -19,15 +28,6 @@
             <sparkle:shortVersionString>0.17.30</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.30/AgentsEye-0.17.30-80.dmg" length="9644240" type="application/octet-stream" sparkle:edSignature="3nPQaHYGKW+O8mntAa9HK4C32wac/XG1N9ahOmyX9elXWXR3m1QeVPP8PFsi4iX2qkGrqAM2daVz4AjOKxcaAQ=="/>
-        </item>
-        <item>
-            <title>0.17.28</title>
-            <pubDate>Wed, 09 Sep 2026 14:15:04 -0600</pubDate>
-            <link>https://agentseye.app/</link>
-            <sparkle:version>78</sparkle:version>
-            <sparkle:shortVersionString>0.17.28</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.28/AgentsEye-0.17.28-78.dmg" length="10092888" type="application/octet-stream" sparkle:edSignature="g+zQwAigQJPCaum4QEt/pIk+egDFcU4oWJrznYLwTdJXSiGfRwipGa9LuQdJaGSaLW0EL4OGLGRl/Klb5WmVCA=="/>
         </item>
     </channel>
 </rss>
