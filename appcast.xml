@@ -3,6 +3,15 @@
     <channel>
         <title>AgentsEye</title>
         <item>
+            <title>0.18.1</title>
+            <pubDate>Thu, 10 Sep 2026 12:55:25 -0600</pubDate>
+            <link>https://agentseye.app/</link>
+            <sparkle:version>83</sparkle:version>
+            <sparkle:shortVersionString>0.18.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.18.1/AgentsEye-0.18.1-83.dmg" length="9765600" type="application/octet-stream" sparkle:edSignature="ev3di/tqMEST+wxb9sdH5S3fSLa3lcyzB7AIF0Jcj1d1A1qWiziZD9q6XqZ/C+7s1pFUEPSJ1xmukv2d4H1jDQ=="/>
+        </item>
+        <item>
             <title>0.18.0</title>
             <pubDate>Thu, 10 Sep 2026 12:36:33 -0600</pubDate>
             <link>https://agentseye.app/</link>
@@ -19,15 +28,6 @@
             <sparkle:shortVersionString>0.17.31</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.31/AgentsEye-0.17.31-81.dmg" length="10468781" type="application/octet-stream" sparkle:edSignature="eh0js8xeD1sTM1zJ4RE0L765RehMC3GvkETVRlpBmui9lP+hwvMleNVPit3AVdCL38TUQzakigjt5AkByKisCw=="/>
-        </item>
-        <item>
-            <title>0.17.30</title>
-            <pubDate>Thu, 10 Sep 2026 09:26:51 -0600</pubDate>
-            <link>https://agentseye.app/</link>
-            <sparkle:version>80</sparkle:version>
-            <sparkle:shortVersionString>0.17.30</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.30/AgentsEye-0.17.30-80.dmg" length="9644240" type="application/octet-stream" sparkle:edSignature="3nPQaHYGKW+O8mntAa9HK4C32wac/XG1N9ahOmyX9elXWXR3m1QeVPP8PFsi4iX2qkGrqAM2daVz4AjOKxcaAQ=="/>
         </item>
     </channel>
 </rss>
