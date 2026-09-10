@@ -3,6 +3,15 @@
     <channel>
         <title>AgentsEye</title>
         <item>
+            <title>0.17.31</title>
+            <pubDate>Thu, 10 Sep 2026 09:44:57 -0600</pubDate>
+            <link>https://agentseye.app/</link>
+            <sparkle:version>81</sparkle:version>
+            <sparkle:shortVersionString>0.17.31</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.31/AgentsEye-0.17.31-81.dmg" length="10468781" type="application/octet-stream" sparkle:edSignature="eh0js8xeD1sTM1zJ4RE0L765RehMC3GvkETVRlpBmui9lP+hwvMleNVPit3AVdCL38TUQzakigjt5AkByKisCw=="/>
+        </item>
+        <item>
             <title>0.17.30</title>
             <pubDate>Thu, 10 Sep 2026 09:26:51 -0600</pubDate>
             <link>https://agentseye.app/</link>
@@ -19,15 +28,6 @@
             <sparkle:shortVersionString>0.17.28</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.28/AgentsEye-0.17.28-78.dmg" length="10092888" type="application/octet-stream" sparkle:edSignature="g+zQwAigQJPCaum4QEt/pIk+egDFcU4oWJrznYLwTdJXSiGfRwipGa9LuQdJaGSaLW0EL4OGLGRl/Klb5WmVCA=="/>
-        </item>
-        <item>
-            <title>0.17.27</title>
-            <pubDate>Wed, 09 Sep 2026 09:18:38 -0600</pubDate>
-            <link>https://agentseye.app/</link>
-            <sparkle:version>77</sparkle:version>
-            <sparkle:shortVersionString>0.17.27</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.17.27/AgentsEye-0.17.27-77.dmg" length="10291040" type="application/octet-stream" sparkle:edSignature="IU0CesD7gkq2Uf/6ehd2bvK/gB8vmA8/aa4CdiVYNxlOaw0JQ79bPQEVHZ5pAnKgkHWGTpzbYybAt9jcZIt8Dg=="/>
         </item>
     </channel>
 </rss>
