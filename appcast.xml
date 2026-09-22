@@ -3,6 +3,15 @@
     <channel>
         <title>AgentsEye</title>
         <item>
+            <title>0.19.7</title>
+            <pubDate>Tue, 22 Sep 2026 17:19:22 -0600</pubDate>
+            <link>https://agentseye.app/</link>
+            <sparkle:version>93</sparkle:version>
+            <sparkle:shortVersionString>0.19.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.19.7/AgentsEye-0.19.7-93.dmg" length="11685300" type="application/octet-stream" sparkle:edSignature="dQjnRjv6QgIbbZ6v+no4FS//R4SSRPoJejsmWX+tcVCmv83jyRiqLyksNFvSF3eCb95GagUo/ijc5oQwBDEiCQ=="/>
+        </item>
+        <item>
             <title>0.19.6</title>
             <pubDate>Tue, 22 Sep 2026 14:17:29 -0600</pubDate>
             <link>https://agentseye.app/</link>
@@ -19,15 +28,6 @@
             <sparkle:shortVersionString>0.19.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.19.5/AgentsEye-0.19.5-91.dmg" length="11599595" type="application/octet-stream" sparkle:edSignature="C5Lz0C7DenNn7wmzKNfBILdc0/v3cONYrmMrXjLYuFf7Qsd29iwvy6QUNxWmdEX/J8jO1xdIHD4w/CEMTOq1AA=="/>
-        </item>
-        <item>
-            <title>0.19.4</title>
-            <pubDate>Tue, 22 Sep 2026 10:16:44 -0600</pubDate>
-            <link>https://agentseye.app/</link>
-            <sparkle:version>90</sparkle:version>
-            <sparkle:shortVersionString>0.19.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.19.4/AgentsEye-0.19.4-90.dmg" length="10765727" type="application/octet-stream" sparkle:edSignature="8gh6bU3tZS3RVMmynVahnGSXBwDeNAGpJHhx271WtZq5iRLOZ7BvomNKtxH89Xh/E4bU/TEDzBTVtK2JG09DCQ=="/>
         </item>
     </channel>
 </rss>
