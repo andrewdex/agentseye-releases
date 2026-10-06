@@ -3,6 +3,15 @@
     <channel>
         <title>AgentsEye</title>
         <item>
+            <title>0.21.2</title>
+            <pubDate>Tue, 06 Oct 2026 09:10:55 -0600</pubDate>
+            <link>https://agentseye.app/</link>
+            <sparkle:version>100</sparkle:version>
+            <sparkle:shortVersionString>0.21.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.21.2/AgentsEye-0.21.2-100.dmg" length="11461885" type="application/octet-stream" sparkle:edSignature="nxmMPeB0iOJgJKznOQvxTUoGGq7JdA5UF9Z7B3Km2TVHfeY5QRQHg+HDj2kO/C49dqc18fgs5d3K4w7Zz+1vDQ=="/>
+        </item>
+        <item>
             <title>0.21.1</title>
             <pubDate>Wed, 30 Sep 2026 20:01:22 -0600</pubDate>
             <link>https://agentseye.app/</link>
@@ -19,15 +28,6 @@
             <sparkle:shortVersionString>0.20.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.20.3/AgentsEye-0.20.3-97.dmg" length="11191079" type="application/octet-stream" sparkle:edSignature="d+0m2fxTLkqJ8u5Oyo7tV/wxdfATcO1/0mlUtNkkY+MS3Q/SUjdQT8Ppo5yLDec++hNF1QemhMHe8dORdZhEAQ=="/>
-        </item>
-        <item>
-            <title>0.20.2</title>
-            <pubDate>Thu, 24 Sep 2026 14:54:31 -0600</pubDate>
-            <link>https://agentseye.app/</link>
-            <sparkle:version>96</sparkle:version>
-            <sparkle:shortVersionString>0.20.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.20.2/AgentsEye-0.20.2-96.dmg" length="11200371" type="application/octet-stream" sparkle:edSignature="b8xYXbMgqGjeHdjPD3cLGOEWsGv5Wywsqi9NjDbYqPb3lmdHOt5/2SVPzzDtx6CnWoUs6LiG/KqZJeO1VZG9CA=="/>
         </item>
     </channel>
 </rss>
