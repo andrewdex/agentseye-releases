@@ -3,6 +3,15 @@
     <channel>
         <title>AgentsEye</title>
         <item>
+            <title>0.21.4</title>
+            <pubDate>Thu, 08 Oct 2026 18:10:57 -0600</pubDate>
+            <link>https://agentseye.app/</link>
+            <sparkle:version>102</sparkle:version>
+            <sparkle:shortVersionString>0.21.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.21.4/AgentsEye-0.21.4-102.dmg" length="11496243" type="application/octet-stream" sparkle:edSignature="amIbkN8VxEaOayqz/Qp+l6LlDb7R8mTTycqsyn+BVx+nEH1/Ghu135JX4diJSG7aW10i8tiYafBS2OgvnfjtAA=="/>
+        </item>
+        <item>
             <title>0.21.3</title>
             <pubDate>Tue, 06 Oct 2026 10:29:29 -0600</pubDate>
             <link>https://agentseye.app/</link>
@@ -19,15 +28,6 @@
             <sparkle:shortVersionString>0.21.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.21.2/AgentsEye-0.21.2-100.dmg" length="11461885" type="application/octet-stream" sparkle:edSignature="nxmMPeB0iOJgJKznOQvxTUoGGq7JdA5UF9Z7B3Km2TVHfeY5QRQHg+HDj2kO/C49dqc18fgs5d3K4w7Zz+1vDQ=="/>
-        </item>
-        <item>
-            <title>0.21.1</title>
-            <pubDate>Wed, 30 Sep 2026 20:01:22 -0600</pubDate>
-            <link>https://agentseye.app/</link>
-            <sparkle:version>99</sparkle:version>
-            <sparkle:shortVersionString>0.21.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.21.1/AgentsEye-0.21.1-99.dmg" length="11393553" type="application/octet-stream" sparkle:edSignature="x2EEwrwwUEL5XdZOOECjCQYFfnAFVA4D0De1UnBDacFuOQJXi6QovymK0rgk6gjTVirbKv5p74iXs7IzII/6Aw=="/>
         </item>
     </channel>
 </rss>
