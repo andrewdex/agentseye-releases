@@ -3,6 +3,15 @@
     <channel>
         <title>AgentsEye</title>
         <item>
+            <title>0.23.0</title>
+            <pubDate>Tue, 27 Oct 2026 10:18:54 -0600</pubDate>
+            <link>https://agentseye.app/</link>
+            <sparkle:version>106</sparkle:version>
+            <sparkle:shortVersionString>0.23.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.23.0/AgentsEye-0.23.0-106.dmg" length="11465680" type="application/octet-stream" sparkle:edSignature="9jNqWSSgfN3M2slIph/AsOWf6hv/otpgsdZJ55UJ5TYcu2qtqm+sQk0QbhzVAjy8epiw/ztLiN7joWdPdm6kBw=="/>
+        </item>
+        <item>
             <title>0.22.1</title>
             <pubDate>Mon, 19 Oct 2026 11:29:53 -0600</pubDate>
             <link>https://agentseye.app/</link>
@@ -19,15 +28,6 @@
             <sparkle:shortVersionString>0.22.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.22.0/AgentsEye-0.22.0-104.dmg" length="11863578" type="application/octet-stream" sparkle:edSignature="O9UBQ+TMDYe0IbGdY5hDNBMWUHIiHd8IBSxaFezijLD0R06vj6uPtsICuQj7LxsfJSPxbGfRDwvNj5P02OUaDw=="/>
-        </item>
-        <item>
-            <title>0.21.5</title>
-            <pubDate>Wed, 14 Oct 2026 18:35:01 -0600</pubDate>
-            <link>https://agentseye.app/</link>
-            <sparkle:version>103</sparkle:version>
-            <sparkle:shortVersionString>0.21.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.21.5/AgentsEye-0.21.5-103.dmg" length="12129777" type="application/octet-stream" sparkle:edSignature="pduxPyDcUSYkdkrVybdb7DGCBAlPwubpTYvyqivjIXDV9j7rhkLhNHDZiy1kwAZBv9aZ3xC+VyUORgkbbe6FCQ=="/>
         </item>
     </channel>
 </rss>
