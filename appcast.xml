@@ -3,6 +3,15 @@
     <channel>
         <title>AgentsEye</title>
         <item>
+            <title>0.23.2</title>
+            <pubDate>Thu, 05 Nov 2026 11:11:09 -0600</pubDate>
+            <link>https://agentseye.app/</link>
+            <sparkle:version>108</sparkle:version>
+            <sparkle:shortVersionString>0.23.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.23.2/AgentsEye-0.23.2-108.dmg" length="12188766" type="application/octet-stream" sparkle:edSignature="2CHbvmBjqdOco4OvAWA920Y6DSacgnTWMW+QT71j+YwwrpTC3zR68CrgC2jduC+qMpVBmWYe0KdrL5ibEFS1BA=="/>
+        </item>
+        <item>
             <title>0.23.1</title>
             <pubDate>Tue, 27 Oct 2026 10:54:11 -0600</pubDate>
             <link>https://agentseye.app/</link>
@@ -19,15 +28,6 @@
             <sparkle:shortVersionString>0.23.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.23.0/AgentsEye-0.23.0-106.dmg" length="11465680" type="application/octet-stream" sparkle:edSignature="9jNqWSSgfN3M2slIph/AsOWf6hv/otpgsdZJ55UJ5TYcu2qtqm+sQk0QbhzVAjy8epiw/ztLiN7joWdPdm6kBw=="/>
-        </item>
-        <item>
-            <title>0.22.1</title>
-            <pubDate>Mon, 19 Oct 2026 11:29:53 -0600</pubDate>
-            <link>https://agentseye.app/</link>
-            <sparkle:version>105</sparkle:version>
-            <sparkle:shortVersionString>0.22.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/andrewdex/agentseye-releases/releases/download/v0.22.1/AgentsEye-0.22.1-105.dmg" length="12195028" type="application/octet-stream" sparkle:edSignature="cDju23tTSh3/xoEhI954VZgDYXTMFJaNlxyAhQiFMKwFQySZhR0CZQTs4ahmZ2u5ahckmL7ViN5PpZARCJY/BQ=="/>
         </item>
     </channel>
 </rss>
